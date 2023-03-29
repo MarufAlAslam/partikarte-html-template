@@ -12,6 +12,10 @@ $(".featured-slider").slick({
   speed: 300,
   slidesToShow: 4,
   slidesToScroll: 1,
+  arrows: true,
+  prevArrow:
+    '<button class="btn btn-prev"><img src="img/f-prev.png" class="img-fluid" alt=""></button>',
+    nextArrow: '<button class="btn btn-next"><img src="img/f-prev.png" class="img-fluid" alt=""></button>',
   responsive: [
     {
       breakpoint: 1024,

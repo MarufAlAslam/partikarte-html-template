@@ -1,81 +1,106 @@
-*{
-    font-family: 'Outfit', sans-serif;
+* {
+  font-family: "Outfit", sans-serif;
 }
-body, html{
-    overflow-x: hidden;
+body,
+html {
+  overflow-x: hidden;
 }
-
 
 /* banner */
-.banner{
-    background-color: #3D8AFF;
+.banner {
+  background-color: #3d8aff;
 }
-.fw-5{
-    font-weight: 500;
+.fw-5 {
+  font-weight: 500;
 }
-.text-blue{
-    color: #3D8AFF !important;
+.text-blue {
+  color: #3d8aff !important;
 }
-.title{
-    font-size: 50px;
+.title {
+  font-size: 50px;
 }
-.mt-100{
-    margin-top: 100px;
+.mt-100 {
+  margin-top: 100px;
 }
-.br-20{
-    border-top-right-radius: 20px !important;
+.br-20 {
+  border-top-right-radius: 20px !important;
 }
-input:focus{
-    outline: unset !important;
-    box-shadow: unset !important;
+input:focus {
+  outline: unset !important;
+  box-shadow: unset !important;
 }
-button:focus{
-    outline: unset !important;
-    box-shadow: unset !important;
+button:focus {
+  outline: unset !important;
+  box-shadow: unset !important;
 }
-select:focus{
-    outline: unset !important;
-    box-shadow: unset !important;
+select:focus {
+  outline: unset !important;
+  box-shadow: unset !important;
 }
-.filter-btn.active, .filter-btn:hover{
-    background-color: rgba(255, 255, 255, 0.1);
+.filter-btn.active,
+.filter-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
-
 
 /* featured */
-.featured{
-    background-color: #E7E9EA;
+.featured {
+  background-color: #e7e9ea;
 }
-.fs-14{
-    font-size: 14px;
+.fs-14 {
+  font-size: 14px;
 }
-.fs-48{
-    font-size: 48px;
+.fs-48 {
+  font-size: 48px;
 }
-.dark-blue{
-    color: #0E2D5D;
+.dark-blue {
+  color: #0e2d5d;
 }
 .featured-slider {
-    margin: 45px 0;
-    transform: scale(1.12);
+  margin: 45px 0;
+  transform: scale(1.12);
 }
-.fs-15{
-    font-size: 15px;
+.fs-15 {
+  font-size: 15px;
 }
 .date {
-    position: absolute;
-    z-index: 100;
-    background: white;
-    padding: 5px;
-    top: 10px;
-    left: 10px;
+  position: absolute;
+  z-index: 100;
+  background: white;
+  padding: 5px;
+  top: 10px;
+  left: 10px;
 }
-.fs-18{
-    font-size: 18px;
+.fs-18 {
+  font-size: 18px;
 }
-.btn-blue{
-    background-color: #3D8AFF33;
+.btn-blue {
+  background-color: #3d8aff33;
 }
-.fw-6{
-    font-weight: 600;
+.fw-6 {
+  font-weight: 600;
+}
+button.btn.btn-prev.slick-arrow {
+  position: absolute;
+  top: -75px;
+  right: 15%;
+  z-index: 1000;
+  padding: 0;
+  border-radius: 50%;
+  margin: 5px;
+}
+button.btn.btn-next.slick-arrow {
+  position: absolute;
+  top: -75px;
+  right: 10%;
+  z-index: 1000;
+  padding: 0;
+  border-radius: 50%;
+  margin: 5px;
+}
+.btn-next img {
+  transform: rotate(180deg);
+}
+.btn-prev:hover,
+.btn-next:hover {
+  background-color: #3d8aff;
 }
