@@ -19,7 +19,8 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
 
     <!-- style css -->
@@ -27,7 +28,7 @@
 </head>
 
 <body>
-    
+
     <!-- banner -->
     <section class="banner py-5">
         <div class="container">
@@ -52,10 +53,13 @@
                         Explore & Events
                     </h1>
                     <form action="" class="w-50 mx-auto mt-4">
-                        <div class="d-flex flex-row justify-content-between align-items-center bg-white p-2 rounded br-20">
-                            <input type="text" class="form-control w-100 rounded-0 bg-transparent border-0" placeholder="Search Event..." name="" id="">
-                            
-                            <select name="" class="form-select w-auto rounded-0 bg-transparent border-0 border-start" id="">
+                        <div
+                            class="d-flex flex-row justify-content-between align-items-center bg-white p-2 rounded br-20">
+                            <input type="text" class="form-control w-100 rounded-0 bg-transparent border-0"
+                                placeholder="Search Event..." name="" id="">
+
+                            <select name="" class="form-select w-auto rounded-0 bg-transparent border-0 border-start"
+                                id="">
                                 <option value="">Anywhere</option>
                             </select>
                         </div>
@@ -85,12 +89,21 @@
     <!-- featured -->
     <section class="featured py-5">
         <div class="container">
-            <p class="fs-14 text-blue mb-0">
-                Featured!
-            </p>
-            <h2>
-                <span class="dark-blue fs-48 fw-normal">Featured</span> <span class="fs-48 text-blue fw-normal">Events</span>
-            </h2>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="left">
+                    <p class="fs-14 text-blue mb-0">
+                        Featured!
+                    </p>
+                    <h2>
+                        <span class="dark-blue fs-48 fw-normal">Featured</span> <span
+                            class="fs-48 text-blue fw-normal">Events</span>
+                    </h2>
+                </div>
+                <div class="btns text-end">
+                    <button class="btn btn-prev"><img src="img/f-prev.png" class="img-fluid" alt=""></button>
+                    <button class="btn btn-next"><img src="img/f-prev.png" class="img-fluid" alt=""></button>
+                </div>
+            </div>
         </div>
         <div class="container-fluid">
             <div class="featured-slider">
@@ -409,7 +422,59 @@
         </div>
     </section>
     <!-- cards -->
-    
+
+
+    <!-- explore -->
+    <section class="explore pt-5 pb-4">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="left">
+                    <h2 class="title libre mb-0">
+                        <span class="text-white libre">Explore by</span> <span
+                            class="text-blue title libre">Organizer</span>
+                    </h2>
+                    <p class="text-white fs-18">
+                        Lorem Ipsum is simply dummy text of the printing .
+                    </p>
+                </div>
+                <div class="text-end">
+                    <button class="btn btn-sky px-5 text-white rounded-0 py-3">
+                        Explore all organizers
+                    </button>
+                    <button class="btn b-prev px-0">
+                        <img src="img/next.png" class="img-fluid" alt="">
+                    </button>
+                    <button class="btn b-next px-0">
+                        <img src="img/next.png" class="img-fluid" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="bottom-slider">
+                <div class="slide p-2">
+                    <img src="img/e2.png" class="img-fluid w-100" alt="">
+                </div>
+                <div class="slide p-2">
+                    <img src="img/e3.png" class="img-fluid w-100" alt="">
+                </div>
+                <div class="slide p-2">
+                    <img src="img/e2.png" class="img-fluid w-100" alt="">
+                </div>
+                <div class="slide p-2">
+                    <img src="img/e3.png" class="img-fluid w-100" alt="">
+                </div>
+                <div class="slide p-2">
+                    <img src="img/e2.png" class="img-fluid w-100" alt="">
+                </div>
+                <div class="slide p-2">
+                    <img src="img/e3.png" class="img-fluid w-100" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- explore -->
 
     <!-- jQuery cdn -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -422,7 +487,7 @@
 
     <!-- app js -->
     <script src="js/app.js"></script>
-    
+
 </body>
 
 </html>
