@@ -1,3 +1,39 @@
 *{
     font-family: 'Outfit', sans-serif;
 }
+
+
+/* banner */
+.banner{
+    background-color: #3D8AFF;
+}
+.fw-5{
+    font-weight: 500;
+}
+.text-blue{
+    color: #3D8AFF !important;
+}
+.title{
+    font-size: 50px;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.br-20{
+    border-top-right-radius: 20px !important;
+}
+input:focus{
+    outline: unset !important;
+    box-shadow: unset !important;
+}
+button:focus{
+    outline: unset !important;
+    box-shadow: unset !important;
+}
+select:focus{
+    outline: unset !important;
+    box-shadow: unset !important;
+}
+.filter-btn.active, .filter-btn:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
