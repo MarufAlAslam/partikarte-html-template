@@ -43,7 +43,7 @@ select:focus {
 }
 
 /* featured */
-.featured {
+.featured, .cards {
   background-color: #e7e9ea;
 }
 .fs-14 {
