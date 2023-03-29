@@ -43,7 +43,8 @@ select:focus {
 }
 
 /* featured */
-.featured, .cards {
+.featured,
+.cards {
   background-color: #e7e9ea;
 }
 .fs-14 {
@@ -97,25 +98,91 @@ button.btn.btn-next.slick-arrow {
   background-color: #3d8aff;
 }
 
-
 /* explore */
-.libre{
-    font-family: 'Frank Ruhl Libre', serif;
+.libre {
+  font-family: "Frank Ruhl Libre", serif;
 }
-.explore{
-    background-color: #0D0D0D;
+.explore {
+  background-color: #0d0d0d;
 }
-.explore .btn-next img{
+.explore .btn-next img {
+  transform: unset;
+}
+.explore .btn-prev img {
+  transform: rotate(180deg);
+}
+.btn-sky {
+  background-color: #3d8aff;
+}
+.b-prev img {
+  transform: rotate(180deg);
+  position: relative;
+  left: 15px;
+}
+.social {
+  background: black;
+  width: 30px !important;
+  height: 30px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: white !important;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .banner .col-7 a {
+    font-size: 11px;
+  }
+  .banner {
+    padding-top: 15px !important;
+}
+.title {
+    font-size: 30px;
+}
+.w-50 {
+    width: 100% !important;
+}
+a.btn.filter-btn.text-white.py-1.px-4.mx-2.border-0 {
+    padding: 3px 12px !important;
+    margin: 0 !important;
+    font-size: 13px;
+}
+.featured-slider {
+    margin: 0;
     transform: unset;
 }
-.explore .btn-prev img{
-    transform: rotate(180deg);
+.fs-48 {
+    font-size: 27px;
 }
-.btn-sky{
-    background-color: #3d8aff;
+.btn-prev img, .btn-next img {
+    width: 30px;
 }
-.b-prev img{
-    transform: rotate(180deg);
-    position: relative;
-    left: 15px;
+button.btn.btn-sky.px-5.text-white.rounded-0.py-3 {
+    font-size: 11px;
+}
+.explore .d-flex.justify-content-between {
+    flex-direction: column;
+}
+.explore .text-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.explore button {
+    padding: 10px !important;
+}
+.b-prev, .b-next {
+    width: 70px;
+}
+section.footer.pt-5.pb-3 * {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.footer ul.list-unstyled.mb-0.d-flex.justify-content-end.align-items-center {
+    margin: auto !important;
+    justify-content: center !important;
+    align-items: center;
+}
 }
