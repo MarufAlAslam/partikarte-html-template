@@ -154,6 +154,58 @@ button.btn.btn-next.slick-arrow {
   color: white;
 }
 
+.blogs{
+  background-color: #F5F5F5;
+}
+
+.accordion-button{
+  font-size: 22px;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../img/caret-up.png");
+  transform: unset;
+  background-size: 10px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.accordion-button::after {
+  background-image: url("../img/caret-down.png");
+  background-size: 10px;
+  background-position: right;
+}
+.accordion-item {
+  margin-bottom: 15px;
+  border: unset;
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: white;
+  box-shadow: unset;
+}
+
+.accordion-item a:hover{
+  color: #3d8aff !important;
+}
+
+a{
+  text-decoration: none;
+}
+.accordion-body{
+  padding-top: 0;
+}
+.accordion-body li{
+  margin: 10px 0;
+}
+
+.fs-34{
+  font-size: 34px;
+}
+.fs-24{
+  font-size: 24px;
+}
+
 
 
 @media screen and (max-width: 767px) {
