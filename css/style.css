@@ -130,7 +130,7 @@ button.btn.btn-next.slick-arrow {
 
 
 
-/* blogs */
+/* blogs page */
 .blogs-banner{
   background-image: url("../img/blogs-bg.png");
   background-repeat: no-repeat;
@@ -151,7 +151,7 @@ button.btn.btn-next.slick-arrow {
   color: white;
 }
 
-.blogs{
+.blogs, .payment{
   background-color: #F5F5F5;
 }
 
@@ -202,6 +202,10 @@ a{
 .fs-24{
   font-size: 24px;
 }
+
+
+
+/* payment page */
 
 
 
